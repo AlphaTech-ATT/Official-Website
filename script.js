@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", () => {
+  // Check if the website has been loaded before
+  if (!localStorage.getItem("hasLoadedBefore")) {
+    // If not, set the flag and reload the page
+    localStorage.setItem("hasLoadedBefore", "true");
+    location.reload(); // Refresh the page
+  }
+});
+
 // Text fade-in effect on scroll
 document.addEventListener("DOMContentLoaded", function() {
     const elements = document.querySelectorAll(".section h2, .section p");
