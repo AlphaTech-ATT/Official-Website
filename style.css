@@ -231,6 +231,8 @@ h2,p {
     grid-template-rows: repeat(3, 150px);
     grid-template-areas: "a b" "c b" "d d";
     gap: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
     }
     
     .red1 {
@@ -263,6 +265,7 @@ h2,p {
     color: white;
     cursor: pointer;
     transition: 400ms;
+    
     }
     
     .cards .card p.tip {
@@ -1049,8 +1052,3 @@ h2,p {
   }
 
 }
-
-
-
-
-
